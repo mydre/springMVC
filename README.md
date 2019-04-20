@@ -1,6 +1,5 @@
 
 ![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_1.png)
-
 在web.xml中配置。
 
 DispatcherServlet
