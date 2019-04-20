@@ -1,14 +1,30 @@
 
 ![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_1.png)
-在web.xml中配置。
 
-DispatcherServlet
+在web.xml中配置DispatcherServlet
+
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_2.png)
 
 配置对应的servlet-mapping
 
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_3.png)
+
+执行流程
+
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_4.png)
+
+定义自己的Handler
+
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_5.png)
+
 配置Servlet的api
 
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_6.png)
+
 返回的是
+
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_7.png)
+
 然后spring的视图解析器将逻辑视图转换为物理视图，并且将数据（即model）填充进去           为逻辑视图添加数据
 创建物理视图、
 不忽略el表达式
