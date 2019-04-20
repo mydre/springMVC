@@ -35,67 +35,67 @@
 
 不忽略el表达式
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_10.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_11.png)
 
 在springmvc.xml中进行配置，也就是说，在配置文件中进行设置，使得物理视图和逻辑视图进行关联
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_11.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_12.png)
 
 将testHandler映射到java类当中，同样是在springmvc.xml中进行配置
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_12.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_13.png)
 
 
 配置视图解析器，即ViewResolver
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_13.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_14.png)
 
 当前的逻辑视图是show这个单词
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_14.png)
-
 ![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_15.png)
-
-通过注解方式完成Handler的定义
 
 ![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_16.png)
 
-在springmvc.xml中开启包扫描
+通过注解方式完成Handler的定义
 
 ![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_17.png)
 
-第二步让spring的ioc容器知道AnnotationHander是作为一个Handler存在的
+在springmvc.xml中开启包扫描
 
 ![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_18.png)
 
-需要注意的地方
+第二步让spring的ioc容器知道AnnotationHander是作为一个Handler存在的
 
 ![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_19.png)
 
-定义第二种方法，也即是说，另外一种处理请求的Handler：
+需要注意的地方
 
 ![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_20.png)
 
-第三种方法：
+定义第二种方法，也即是说，另外一种处理请求的Handler：
 
 ![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_21.png)
+
+第三种方法：
+
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_22.png)
 
 实战操作：添加商品
 1、定义页面add.jsp
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_22.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_23.png)
 
 2、定义Handler
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_23.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_24.png)
 
 这时会发现后台打印出来的数据是乱码的
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_24.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_25.png)
 
 解决：价格过滤器来处理中文乱码的问题，在web.xml中添加过滤器
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_25.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_26.png)
 
 ```xml
 <filter>
