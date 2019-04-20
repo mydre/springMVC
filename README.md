@@ -83,19 +83,17 @@
 实战操作：添加商品
 1、定义页面add.jsp
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_23.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_26.png)
 
 2、定义Handler
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_24.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_27.png)
 
 这时会发现后台打印出来的数据是乱码的
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_25.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_28.png)
 
 解决：价格过滤器来处理中文乱码的问题，在web.xml中添加过滤器
-
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_26.png)
 
 ```xml
 <filter>
@@ -125,7 +123,7 @@
 ```
 这时css正常起作用
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_26.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_29.png)
 
 输出的结果也正常了
 
