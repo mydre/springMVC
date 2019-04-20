@@ -48,25 +48,25 @@
 
 配置视图解析器，即ViewResolver
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_14.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_13.png)
 
 当前的逻辑视图是show这个单词
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_15.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_14.png)
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_16.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_15.png)
 
 通过注解方式完成Handler的定义
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_17.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_16.png)
 
 在springmvc.xml中开启包扫描
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_18.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_17.png)
 
 第二步让spring的ioc容器知道AnnotationHander是作为一个Handler存在的
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_19.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_18.png)
 
 需要注意的地方
 
