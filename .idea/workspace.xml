@@ -8,30 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6736a427-ff13-4ab8-a307-6701c20bff3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190419_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/Snip20190420_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springMVC.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/springMVC.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springMVC/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/springMVC/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/springmvc/handler/DataBindController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/springmvc/handler/DataBindController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,6 +22,7 @@
     <session id="-441956247">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -54,7 +32,7 @@
           <entry key="Image" value="1" />
           <entry key="JAVA" value="8" />
           <entry key="JSP" value="4" />
-          <entry key="XML" value="6" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -71,11 +49,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/springmvc/handler/DataBindController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -151,9 +138,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1366" />
-    <option name="height" value="768" />
+    <option name="height" value="680" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -247,7 +235,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555759758723" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555766238141" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -353,12 +341,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555744226974</updated>
-      <workItem from="1555744229449" duration="8702000" />
+      <workItem from="1555744229449" duration="8958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8702000" />
+    <option name="totallyTimeSpent" value="8958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -382,7 +370,7 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3295129" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.2765043" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.2765043" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -466,13 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -482,8 +463,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/springmvc/handler/DataBindController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
