@@ -67,4 +67,3 @@ ${goods.price}<br/>
 ${goods.toString()}<br/>
 </body>
 </html>
-
