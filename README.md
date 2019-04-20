@@ -4,8 +4,7 @@
 Spring框架的一个后续产品。<br>目前最好的实现MCV设计模式的框架。<br>Spring框架的一个字模块，二者可以很好的结合使用，不需要整合。<br>
 SpringMVC核心组件
 ======
-
-1.DispatcherServlet:前置控制器。 <br>2.HandlerMapping:将请求映射到Handler。 <br>3.Handler:后端控制器，完成具体业务逻辑。<br>4.HandlerInterceptor:处理器拦截器。<br> 5.HandlerExecutionChain:处理器执行链。<br> 6.HandlerAdapter:处理器适配器。<br>7.ModelAndView:装载模型数据和视图信息。<br> 8.ViewResolver:视图解析器。 <br>
+1.DispatcherServlet:前置控制器。<br> 2.HandlerMapping:将请求映射到Handler。<br> 3.Handler:后端控制器，完成具体业务逻辑。 <br>4.HandlerInterceptor:处理器拦截器。<br> 5.HandlerExecutionChain:处理器执行链。 <br>6.HandlerAdapter:处理器适配器。 <br>7.ModelAndView:装载模型数据和视图信息。<br>8.ViewResolver:视图解析器。 <br>
 SpringMVC实现流程
 ======
 
