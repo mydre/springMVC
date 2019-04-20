@@ -69,7 +69,6 @@
 							  <filter-name>encodingFilter</filter-name>
 							    <url-pattern>/*</url-pattern>
 								</filter-mapping>
-
 								第二个问题：css为什么没有加载进来，因为DispatcherServlet拦截了所有的请求，／，包括去获取css文件。所以需要在web.xml中设置访问静态资源。
 								<servlet-mapping>
 								  <servlet-name>default</servlet-name>
