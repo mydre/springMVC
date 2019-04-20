@@ -58,27 +58,27 @@
 
 通过注解方式完成Handler的定义
 
-
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_21.png)
 
 在springmvc.xml中开启包扫描
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_17.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_19.png)
 
 第二步让spring的ioc容器知道AnnotationHander是作为一个Handler存在的
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_18.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_20.png)
 
 需要注意的地方
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_20.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_22.png)
 
 定义第二种方法，也即是说，另外一种处理请求的Handler：
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_21.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_23.png)
 
 第三种方法：
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_22.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_24.png)
 
 实战操作：添加商品
 1、定义页面add.jsp
