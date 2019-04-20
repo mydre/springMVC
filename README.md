@@ -40,25 +40,25 @@
 在springmvc.xml中进行配置，也就是说，在配置文件中进行设置，使得物理视图和逻辑视图进行关联
 
 ![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_12.png)
-
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_13.png)
 将testHandler映射到java类当中，同样是在springmvc.xml中进行配置
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_13.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_14.png)
 
 
 配置视图解析器，即ViewResolver
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_13.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_15.png)
 
 当前的逻辑视图是show这个单词
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_14.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_16.png)
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_15.png)
+![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_17.png)
 
 通过注解方式完成Handler的定义
 
-![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_16.png)
+
 
 在springmvc.xml中开启包扫描
 
