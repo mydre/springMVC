@@ -55,50 +55,51 @@
 解决：价格过滤器来处理中文乱码的问题，在web.xml中添加过滤器
 <filter>
   <filter-name>encodingFilter</filter-name>
-    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
-	  <init-param>
-	      <param-name>encoding</param-name>
-		      <param-value>UTF-8</param-value>
-			    </init-param>
-				  <init-param>
-				      <param-name>forceEncoding</param-name>
-					      <param-value>true</param-value>
-						    </init-param>
-							</filter>
-							<filter-mapping>
-							  <filter-name>encodingFilter</filter-name>
-							    <url-pattern>/*</url-pattern>
-								</filter-mapping>
-								第二个问题：css为什么没有加载进来，因为DispatcherServlet拦截了所有的请求，／，包括去获取css文件。所以需要在web.xml中设置访问静态资源。
-								<servlet-mapping>
-								  <servlet-name>default</servlet-name>
-								    <url-pattern>*.css</url-pattern>
-									</servlet-mapping>
-									这是css正常起作用：
-									￼
-									输出的结果也正常了：
-									Goods{price=5500.0, name='台式机电脑'}
-									修正代码：
-									@RequestMapping("/addGoods")
-									public ModelAndView addGoods(Goods goods){
-									    //System.out.println( goods );
-										    ModelAndView modelAndView = new ModelAndView(  );
-											    modelAndView.addObject( "goods",goods );
-												    modelAndView.setViewName( "show" );
-													    return modelAndView;
-														}
-														到show.jsp中进行数据的展示
-														<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-														<!--不忽略el表达式，这样就能够使用el表达式了-->
-														<%@page isELIgnored="false" %>
-														<html>
-														<head>
-														    <title>Title</title>
-															</head>
-															<body>
-															${goods.name}<br/>
-															${goods.price}<br/>
-															${goods.toString()}<br/>
-															</body>
-															</html>
+  <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+  <init-param>
+    <param-name>encoding</param-name>
+    <param-value>UTF-8</param-value>
+  </init-param>
+  <init-param>
+    <param-name>forceEncoding</param-name>
+    <param-value>true</param-value>
+  </init-param>
+</filter>
+<filter-mapping>
+  <filter-name>encodingFilter</filter-name>
+  <url-pattern>/*</url-pattern>
+</filter-mapping>
+
+第二个问题：css为什么没有加载进来，因为DispatcherServlet拦截了所有的请求，／，包括去获取css文件。所以需要在web.xml中设置访问静态资源。
+<servlet-mapping>
+  <servlet-name>default</servlet-name>
+  <url-pattern>*.css</url-pattern>
+</servlet-mapping>
+这是css正常起作用：
+￼
+输出的结果也正常了：
+Goods{price=5500.0, name='台式机电脑'}
+修正代码：
+@RequestMapping("/addGoods")
+public ModelAndView addGoods(Goods goods){
+    //System.out.println( goods );
+    ModelAndView modelAndView = new ModelAndView(  );
+    modelAndView.addObject( "goods",goods );
+    modelAndView.setViewName( "show" );
+    return modelAndView;
+}
+到show.jsp中进行数据的展示
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!--不忽略el表达式，这样就能够使用el表达式了-->
+<%@page isELIgnored="false" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+${goods.name}<br/>
+${goods.price}<br/>
+${goods.toString()}<br/>
+</body>
+</html>
 
