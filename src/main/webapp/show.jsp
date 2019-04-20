@@ -6,6 +6,8 @@
     <title>Title</title>
 </head>
 <body>
-${name}
+${goods.name}<br/>
+${goods.price}<br/>
+${goods.toString()}<br/>
 </body>
 </html>

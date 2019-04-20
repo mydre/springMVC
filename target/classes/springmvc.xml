@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!--配置HandlerMapping-->
+<!--    &lt;!&ndash;配置HandlerMapping&ndash;&gt;
     <bean id="handlerMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="mappings">
             <props>
@@ -12,8 +14,8 @@
         </property>
     </bean>
 
-    <!--配置Handler-->
-    <bean id="testHandler" class="com.imooc.springmvc.handler.MyHandler"></bean>
+    &lt;!&ndash;配置Handler&ndash;&gt;
+    <bean id="testHandler" class="com.imooc.springmvc.handler.MyHandler"></bean>-->
 
     <!--配置视图解析器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -21,4 +23,7 @@
         <property name="prefix" value="/"></property>
         <property name="suffix" value=".jsp"></property>
     </bean>
+
+    <context:component-scan base-package="com.imooc.springmvc.handler"></context:component-scan>
+
 </beans>
