@@ -1,6 +1,11 @@
-在web.xml中配置。DispatcherServlet
+在web.xml中配置。
+=
+DispatcherServlet
+
 配置对应的servlet-mapping
+-------------------
 配置Servlet的api
+
 返回的是
 然后spring的视图解析器将逻辑视图转换为物理视图，并且将数据（即model）填充进去           为逻辑视图添加数据
 创建物理视图、
