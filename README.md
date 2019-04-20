@@ -1,3 +1,7 @@
+什么是SpringMVC？
+=====
+Spring框架的一个后续产品。  目前最好的实现MCV设计模式的框架。  Spring
+
 pom依赖
 
 ![Image t](https://github.com/mydre/springMVC/blob/master/src/main/webapp/picture/Snip20190420_1.png)
